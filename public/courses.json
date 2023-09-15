@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/ftZMdCc/c-programming.png",
+      "name": "Introduction to C Programming",
+      "description": "Explore the fundamentals of C programming, laying the foundation for your coding journey.",
+      "price": 49.99,
+      "credit": 3
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/q1PVpHq/algorithm.png",
+      "name": "Introduction to Algorithms",
+      "description": "Dive into the world of algorithms and problem-solving techniques to sharpen your programming skills.",
+      "price": 59.99,
+      "credit": 4
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/JytCHxF/cplusplus.png",
+      "name": "Introduction to C++ for DSA",
+      "description": "Master C++ as you embark on your journey into Data Structures and Algorithms.",
+      "price": 39.99,
+      "credit": 2
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/DDPTS4R/data-structure.png",
+      "name": "Basic Data Structures",
+      "description": "Learn essential data structures to enhance your programming knowledge.",
+      "price": 49.99,
+      "credit": 3
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/D4rcjhQ/python.png",
+      "name": "Introduction to OOP Python",
+      "description": "Discover the principles of Object-Oriented Programming with Python as your guide.",
+      "price": 54.99,
+      "credit": 3
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/qr4gkYJ/software-engineering.png",
+      "name": "Software Engineering",
+      "description": "Delve into the world of software engineering and best practices for building robust applications.",
+      "price": 69.99,
+      "credit": 4
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/TgB1C17/aws.png",
+      "name": "AWS, Cloud Computing",
+      "description": "Navigate the cloud with AWS and explore the world of cloud computing.",
+      "price": 59.99,
+      "credit": 3
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/R0dLndg/db.png",
+      "name": "Database (MySQL)",
+      "description": "Uncover the power of MySQL for effective database management.",
+      "price": 79.99,
+      "credit": 4
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/ZYqY7ky/problem-solving.png",
+      "name": "Problem-Solving Part",
+      "description": "Hone your problem-solving skills in this practical and engaging course.",
+      "price": 49.99,
+      "credit": 3
+    }
+]  
