@@ -11,7 +11,7 @@ const Cards = ({handleSelect}) => {
   },[])
 
   return(
-        <div className='grid grid-cols-3 gap-6 w-3/4 bg-[#F3F3F3]'>
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-6 lg:w-3/4 md:w-1/2 w-full bg-[#F3F3F3]'>
           {
             courses.map(course => <Card
               key={course.id}

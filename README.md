@@ -1,8 +1,9 @@
-# React + Vite
+Q1. Add at least 3 Project features.
+Ans:3 features of my project:
+    • Course selection with cart management and credit limit control.
+    • Dynamic price calculation and responsive design for various screens.
+    • Prevents duplicate course selection with toast notifications.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Q2. Discuss how you managed the state in your assignment project.
+Ans: In my assignment project, I managed the state using React's useState and useEffect hooks. I employed useEffect to fetch mock data from a JSON file during component initialization, and then used useState to set and handle this data. Additionally, I used useState to manage the state of selected courses, allowing users to interact with and review their selections. This combination of hooks allowed for efficient state management within the project.
