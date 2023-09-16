@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Card from './Card';
 
-const Cards = () => {
+const Cards = ({handleSelect}) => {
     const [courses, setCourses] = useState([]);
 
   useEffect(() => {
@@ -16,6 +16,7 @@ const Cards = () => {
             courses.map(course => <Card
               key={course.id}
               course={course}
+              handleSelect={handleSelect}
           ></Card>
             )
           }

@@ -1,4 +1,4 @@
-const Card = ({course}) => {
+const Card = ({course, handleSelect}) => {
     const {id, img, name, description, price, credit} = course;
 
     return(
@@ -12,7 +12,7 @@ const Card = ({course}) => {
                   <p className='font-medium'><img className='w-8 inline' src="dollar.png" alt="logo" /> Price : {price}</p>
                   <p className='font-medium'><img className='w-8 inline' src="Frame.png" alt="Frame" />Credit : {credit} hrs</p>
                 </div>
-                <button className='text-lg font-semibold py-2 bg-[#2F80ED] w-full rounded-lg text-white'>Select</button>
+                <button onClick={()=>handleSelect(course)} className='text-lg font-semibold py-2 bg-[#2F80ED] w-full rounded-lg text-white'>Select</button>
               </div>
     )
 }
